@@ -14,7 +14,9 @@
 
 ![](/assets/asdsa32import.png)
 
+由於$$w \bullet x 為負的(不是正的)，代表其  cos\theta 過大，需要降低彼此間的角度$$ w\bulletx為負
 
+解決辦法即
 
 * 情境二：實際為負，預測為正
 

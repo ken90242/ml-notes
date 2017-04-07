@@ -16,7 +16,7 @@
 
 由於 $$w \bullet x$$ 為負的\(不是正的\)，代表其 $$cos\theta$$過大，需要降低彼此間的角度
 
-解決辦法即讓w再行加上[^1]x，降低其$$cos\theta$$
+解決辦法即讓[w再行加上x](http://www.czbaa.com//sites/default/files/field/image/wiki_img/xljf01.png)，降低其$$cos\theta$$
 
 * 情境二：實際為負，預測為正
 
@@ -45,9 +45,11 @@
 
 ![](/assets/f98h432fimport.png)
 
+#### 證明
 
+$$Sign(W^T_tX_n)\neq y_n, W_t+1 \gets W_t + y_nx_n$$
 
-[^1]: 
+第二式兩邊同時乘以$$y_nx_n$$得$$y_nx_nW_t+1 \gets y_nx_nW_t + (y_nx_n)^2$$
 
-[^2]: 垂直於該線、平面的向量
+因此得知$$y_nx_nW_t+1 > y_nx_nW_t$$，此式即代表所做的修正是有用的\(若是$$sign(xw)\neq sign(y)$$表示其乘積為負\)
 

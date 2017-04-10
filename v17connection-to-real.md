@@ -38,11 +38,7 @@ Hoeffding保證的只是BAD資料出現機率較小
 
 ![](/assets/ihf87324fr2mport.png)
 
-
-
-kkkk
+因此可以推得$$\mathbb{P} \leq 2M exp(-2\epsilon^2N)$$，當N大到一定程度時，不論選擇什麼hypothesis，皆可保證$$E_{in} \approx E_{out}$$
 
 ![](/assets/impo8943hfh123rt.png)
-
-
 

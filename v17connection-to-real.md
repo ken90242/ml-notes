@@ -30,19 +30,19 @@ Hoeffding保證的只是BAD資料出現機率較小
 
 **因此只要含有BAD的資料一律不能用**
 
-
-
 ### Bad data的範圍上限
 
 > 每個hypothesis的Hoeffding**聯集**
 
-如下圖所示
+如下圖所示\(假設有M個hypothesis\)
 
 ![](/assets/ihf87324fr2mport.png)
 
 
 
+kkkk
 
+![](/assets/impo8943hfh123rt.png)
 
 
 

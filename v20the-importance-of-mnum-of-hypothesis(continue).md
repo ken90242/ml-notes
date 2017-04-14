@@ -1,4 +1,4 @@
-# 四、Dichotomies
+# 為例為例四、Dichotomies
 
 > mini-hypothesis\(對資料的所有分類\)
 >
@@ -68,5 +68,16 @@ $$m_H(N) = 2^N\ \  \because $$ Convex能完成所有的分類
 >
 > 若是k為break point，則k+1, k+2...之後皆無法完全實作dicotomy
 
-以二元分類
+以二元分類Perceptron為例，其break point是4\(會有兩個點無法實作\)：$$2^4-2<2^4$$
+
+回顧上述的四種舉例:positive ray, range,convex,perceptron
+
+![](/assets/impjbckew7ort.png)
+
+從這個表格中，可以大致整理出一個規律:
+
+1. 若是沒有break point，則$$m_H(N)=2^N$$
+2. 若有break point為K，則$$m_H(N)=O(N^{k-1})$$
+
+
 

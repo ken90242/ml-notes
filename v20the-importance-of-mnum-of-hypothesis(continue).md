@@ -1,6 +1,6 @@
 # 四、Dichotomies
 
-> mini-hypothesis\(所有可能的分類\)
+> mini-hypothesis\(對資料的所有分類\)
 >
 > hypothesis limited to the eyes of $$x_1, x_2, x_3..., x_N$$
 
@@ -26,8 +26,6 @@ Dichotomy便是先前所說的：由資料的視角出發
 
 $$m_H(N) = N+1 \ll 2^N$$
 
-
-
 #### -Growth Function for Positive Intervals
 
 ![](/assets/imintervalfd214tgoeiport.png)
@@ -37,8 +35,6 @@ $$m_H(N) = N+1 \ll 2^N$$
 $$m_H(N) = C^N_2+1=\frac{N^2}{2}+\frac{N}{2}+1 \ll 2^N$$
 
 ![](/assets/impofewoihfih2214rt.png)
-
-
 
 #### -Growth Function for Convex Sets
 
@@ -73,6 +69,4 @@ $$m_H(N) = 2^N\ \  \because $$ Convex能完成所有的分類
 > 若是k為break point，則k+1, k+2...之後皆無法完全實作dicotomy
 
 以二元分類
-
-
 

@@ -9,4 +9,5 @@
 * [V16:Learing is possible\(2\)](v16learing-is-possible2.md)
 * [V17:Connection to real](v17connection-to-real.md)
 * [V19:The importance of M\(num of hypothesis\)](v20the-importance-of-mnum-of-hypothesis.md)
+* [V20:The importance of M\(num of hypothesis\)-continue](v20the-importance-of-mnum-of-hypothesis%28continue%29.md)
 

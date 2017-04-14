@@ -80,7 +80,7 @@ $$m_H(N) = 2^N\ \  \because $$ Convex能完成所有的分類
 
 ![](/assets/impjbckew7ort.png)
 
-從這個表格中，可以大致整理出一個規律:
+在表格中，可以大致整理出一個規律:
 
 1. 若是沒有break point，則$$m_H(N)=2^N$$
 2. 若有break point為K，則$$m_H(N)=O(N^{k-1})$$

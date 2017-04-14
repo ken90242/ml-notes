@@ -59,11 +59,15 @@ $$\mathbb{P}[\beta_1\
 
 ![](/assets/im8j432f9hport.png)
 
-
-
 ### 若是兩個點呢?
 
 ![](/assets/impj8293fj2ort.png)
+
+對$$x_1跟x_2$$來說，只有4條線可將其分成4種結果
+
+### 若是四個點呢?
+
+
 
 
 

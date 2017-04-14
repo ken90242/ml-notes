@@ -26,7 +26,11 @@ $$\mathbb{P}[\beta_1\
 
 而最壞的情況就是每個$$\mathbb{P}[\beta_x](x=1...M)$$ 都沒有交集
 
+但正常情況下，$$\mathbb{P}[\beta_x](x=1...M)$$或多或少都會有所交集，如下圖所示
+
 ![](/assets/impj843hf2ort.png)
+
+
 
 三、
 

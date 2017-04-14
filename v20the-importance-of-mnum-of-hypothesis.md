@@ -30,5 +30,14 @@ $$\mathbb{P}[\beta_1\
 
 ![](/assets/impj843hf2ort.png)
 
+除此之外，以Perceptron為例，hypothesis有無數個\(無數條線\)，而有些線只要微調就是另一個hypothesis
+
+![](/assets/impjr982fnhwiueort.png)
+
+1. hypothesis1與hypothesis2對於test set的預估是相近的
+2. 在絕大部分情形，hypothesis1與hypothesis2對於training set的結果是相同的
+
+因此這會造成union bound過分高估
+
 三、
 

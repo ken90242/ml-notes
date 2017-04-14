@@ -83,3 +83,9 @@ $$\mathbb{P}[\|E_{in}(g)-E_{out}(g)\|>\epsilon]\ \leq\ 2\bullet effective(N)\bul
 
 以二元分類為例，$$effective(N)\leq 2^N$$
 
+![](/assets/imnf892hf32port.png)
+
+因此，若是effective\(N\)可以取代M，且$$effective(N)\ll 2^N$$，在無限的hypothesis下學習便是一件可行的事
+
+
+

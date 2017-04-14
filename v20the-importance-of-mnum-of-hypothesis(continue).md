@@ -1,4 +1,4 @@
-# 為例為例四、Dichotomies
+# 四、Dichotomies
 
 > mini-hypothesis\(對資料的所有分類\)
 >
@@ -8,13 +8,19 @@ Dichotomy便是先前所說的：由資料的視角出發
 
 ![](/assets/irj239hf2mport.png)
 
-### Growth function
+## 
+
+## Growth function
 
 然而Dichotomies set有一個問題：過度依賴於資料的視角
 
 因此Dichotomies set有可能會因為資料視角的不同，而導致其大小的不同\(每個資料的相對位置不同，造成分類的hypothesis的可行性也不同\)
 
+![](/assets/impogroiwtnfuncrt.png)
+
 為了**移除此相依**，$$m_H(N) = MAX_{x_1,x_2...,x_N\in N} | H(x_1,x_2,x_3,...,x_N) | $$
+
+這裡的$$m_H(N)是將來用來取代M的代數$$
 
 #### -Growth Function for Positive Rays
 

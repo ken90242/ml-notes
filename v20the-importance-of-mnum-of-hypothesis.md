@@ -20,5 +20,13 @@ hypothesis的數量將近無限多種，首先在避免選到壞資料便是個�
 
 複習一下M是如何得出的:
 
+$$\mathbb{P}[\beta_1\
+ or\ \beta_2\ or\ \beta_3\ or\ ...\ or\ \beta_M]\ 
+\ \leq\ \ \mathbb{P}[\beta_1]+\mathbb{P}[\beta_2]+\mathbb{P}[\beta_3]+...+\mathbb{P}[\beta_{M}]$$
+
+
+
 ![](/assets/impj843hf2ort.png)
+
+三、
 

@@ -24,7 +24,7 @@ $$\mathbb{P}[\beta_1\
  or\ \beta_2\ or\ \beta_3\ or\ ...\ or\ \beta_M]\ 
 \ \leq\ \ \mathbb{P}[\beta_1]+\mathbb{P}[\beta_2]+\mathbb{P}[\beta_3]+...+\mathbb{P}[\beta_{M}]$$
 
-
+而最壞的情況就是每個$$\mathbb{P}[\beta_x](x=1...M)$$ 都沒有交集
 
 ![](/assets/impj843hf2ort.png)
 

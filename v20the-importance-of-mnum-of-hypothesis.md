@@ -37,7 +37,9 @@ $$\mathbb{P}[\beta_1\
 1. hypothesis1與hypothesis2對於test set的預估是相近的
 2. 在絕大部分情形，hypothesis1與hypothesis2對於training set的結果是相同的
 
-因此這會造成union bound過分高估
+因此這會造成union bound過分高估。$$\because$$ 過多重疊且造成無限多的hypothesis
 
-三、
+# 三、
+
+
 

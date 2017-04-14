@@ -65,11 +65,21 @@ $$\mathbb{P}[\beta_1\
 
 對$$x_1跟x_2$$來說，只有4條線可將其分成4種結果
 
-到這邊我們大概可以發現，對這種二元分類的資料來說，線只有$$2^N(N=num\ of\ data)$$個結果
+到這邊我們大概可以發現，對這種二元分類的資料來說，線只有$$2^N(N=num\ of\ data)$$個結果$$(2^N種可能性)$$
 
 ### 若是三個點呢?
 
 ![](/assets/impoj8329fwrt.png)
 
-總有些事無法做到的hypothesis，在此此例中，3
+總有些事無法做到的hypothesis，在此例中，3個點有$$2^3=8$$種可能，這代表其應有8個hypothesis
+
+然而有兩個分類是無法做到的，因此三個點中只有6種hypothesis的可能
+
+### 小結
+
+$$\mathbb{P}[\|E_{in}(g)-E_{out}(g)\|>\epsilon]\ \leq\ 2\bullet effective(N)\bullet exp(-epsilon^2N)$$
+
+從上述例子中，我們發現M不再是遙不可及的範圍，而是一個可以去縮小運用的範圍
+
+以二元分類為例，$$effective(N)\leq 2^N$$
 

@@ -19,7 +19,7 @@
 3. A選到一個hypothesis g，獲得小的$$E_{in}$$$$\longrightarrow$$ good A
 4. 好的運氣\(不能總是選到壞資料呀\)
 
-# VC dimension
+# VC dimension定義
 
 > vc dimension = Maximum **non-break** point
 >
@@ -32,6 +32,30 @@
 所以什麼是一個好的H?
 
 好的break point、有限的VC dimension
+
+![](/assets/螢幕快照 2017-04-25 下午8.57.11.png)
+
+答案為4，因為題目僅僅闡述有一組input data無法被shattered，但是其他input data是否能被shattered仍是未知的情況
+
+若是所有的input data都被證明是無法被shattered的話，答案即為3
+
+# $$d_{vc} =? d + 1 $$
+
+![](/assets/螢幕快照 2017-04-25 下午9.02.34.png)
+
+在一維的PLA和二維的PLA中，可以歸納出$$d_{vc} = d+1$$，但要如何證明呢
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -104,5 +104,11 @@ $$\therefore d_{vc} = d+1$$
 
 $$\epsilon = \sqrt{\frac{8}{n}ln(\frac{4(2N)^{d_{vc}}}{\delta})}$$
 
+![](/assets/螢幕快照 2017-04-25 下午9.48.38.png)
 
+![](/assets/螢幕快照 2017-04-25 下午9.46.40.png)
+
+上述的in-sample error 與 out-of-sample error即分別為$$E_{in}$$與$$E_{out}$$，而$$\Omega(N,\mathcal{H},\delta)$$代表著模型複雜度的成本
+
+從圖中可見，並非模型越複雜越好，而是要能取得一個model complexity及in-sample error的均衡點
 

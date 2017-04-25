@@ -21,7 +21,23 @@
 
 # VC dimension
 
-> vc dimension = minimum break point-1
+> vc dimension = Maximum **non-break** point
+>
+> $$d_{vc} = k-1,k=$$最小break point
+
+以之前的四個例子來說
+
+![](/assets/螢幕快照 2017-04-25 下午8.55.33.png)
+
+所以什麼是一個好的H?
+
+好的break point、有限的VC dimension
+
+
+
+
+
+
 
 
 

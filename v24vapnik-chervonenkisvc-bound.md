@@ -24,8 +24,6 @@
 
 ![](/assets/螢幕快照 2017-04-25 下午5.49.03.png)
 
-
-
 ![](/assets/螢幕快照 2017-04-25 下午5.51.51.png)
 
 因為有一半的機率會選到壞資料，因此$$\mathbb{P}$$前面加上$$\frac{1}{2}$$，$$\epsilon改為\frac{\epsilon}{2}$$是出於數學推導考量
@@ -36,6 +34,28 @@
 在已知break point的情況下，$$m_H(N)$$為polynomial bounded，因此可將其直接帶入：
 
 ![](/assets/螢幕快照 2017-04-25 下午5.59.28.png)
+
+\(見[V17:Connection to real](/v17connection-to-real.md)\)
+
+# Step3: Use Hoeffding without Replacement
+
+由於fixed h只是一個固定的hypothesis，要比較一個sample與所有平均便須用到Hoeffding了
+
+![](/assets/螢幕快照 2017-04-25 下午6.08.32.png)
+
+
+
+除此之外，為了將$$E_{out}$$重新加回算式，從$$|E_{in}-E_{in}^\prime| > \frac{\epsilon}{2} \leftrightarrow | E_{in}-\frac{E_{in}+E_{in}^\prime}{2}|>\frac{\epsilon}{4}$$，因為$$E_{out} \approx \frac{E_{in}+E_{in}^\prime}{2}$$
+
+![](/assets/螢幕快照 2017-04-25 下午6.03.22.png)
+
+套用上述兩點得論：
+
+![](/assets/螢幕快照 2017-04-25 下午6.08.29.png)
+
+# Final
+
+![](/assets/螢幕快照 2017-04-25 下午6.11.15.png)
 
 
 

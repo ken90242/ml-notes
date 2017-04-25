@@ -13,4 +13,5 @@
 * [V21:Restriction of break point](v21restriction-of-break-point.md)
 * [V22:Bounding Function](v22bounding-function.md)
 * [V23:Bounding Function\(inductive\)](v23bounding-functioninductive.md)
+* [V24:Vapnik-Chervonenkis\(VC\) bound](v24vapnik-chervonenkisvc-bound.md)
 

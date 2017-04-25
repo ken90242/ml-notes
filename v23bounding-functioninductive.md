@@ -64,3 +64,7 @@ B\(4,3\) = $$(2\alpha+\beta)=(\alpha+\beta)+(\alpha)$$的Bounding Function為B\(
 
 在固定break point=k的情況下，B\(N,k\)的上限為Polynomial function，因此$$m_H(N) = poly(N)$$，當break point存在時。
 
+$$N(m_{h}(N), B(N,k))$$
+
+![](/assets/螢幕快照 2017-04-25 下午5.25.47.png)
+

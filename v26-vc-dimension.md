@@ -86,5 +86,11 @@ $$\therefore d_{vc} \geq d+1$$
 
 因此無論換了多少input data，都無法shatter該input data，表達出所有的解
 
+$$\therefore d_{vc} \leq d+1$$
 
+### Step 3：得證$$d_{vc} = d+1$$
+
+$$\because d_{vc} \geq d+1  $$ && $$d_{vc} \leq d+1$$
+
+$$\therefore d_{vc} = d+1$$
 

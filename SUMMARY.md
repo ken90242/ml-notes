@@ -14,4 +14,5 @@
 * [V22:Bounding Function](v22bounding-function.md)
 * [V23:Bounding Function\(inductive\)](v23bounding-functioninductive.md)
 * [V24:Vapnik-Chervonenkis\(VC\) bound](v24vapnik-chervonenkisvc-bound.md)
+* [V26: VC dimension](v26-vc-dimension.md)
 

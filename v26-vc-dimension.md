@@ -80,7 +80,7 @@ $$\therefore d_{vc} \geq d+1$$
 
 ![](/assets/螢幕快照 2017-04-25 下午9.23.28.png)
 
-上述表達的僅是一種可能性，$$x_{d+2}$$這個點因為linear dependence的關係，所以無法同時表達出兩種解
+上述表達的僅是一種可能性，$$x_{d+2}$$這個點因為linear dependence的關係，所以無法同時表達出兩種解\(取sign\)
 
 **一個式子畢竟只能表達出一種解**
 
@@ -93,4 +93,16 @@ $$\therefore d_{vc} \leq d+1$$
 $$\because d_{vc} \geq d+1  $$ && $$d_{vc} \leq d+1$$
 
 $$\therefore d_{vc} = d+1$$
+
+# VC dimension代表的意義
+
+> Penalty for model complexity
+
+![](/assets/螢幕快照 2017-04-25 下午9.42.15.png)
+
+當使用$$\delta$$代替$$4(2N)^{d_{vc}}exp(-\frac{1}{8}\epsilon^2N)$$後，便可得到
+
+$$\epsilon = \sqrt{\frac{8}{n}ln(\frac{4(2N)^{d_{vc}}}{\delta})}$$
+
+
 

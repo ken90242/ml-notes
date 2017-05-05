@@ -8,8 +8,6 @@ $$\overline{E_{in}} = \varepsilon_{D \sim P^N}(E_{in} (w\ \ \ w.r.t\ \ \ D)$$
 
 $$= \frac{1}{N}\|y-\hat{y}\|^2 = \frac{1}{N}\|y-XX^{\dagger}y\|^2 = \frac{1}{N}\|(I-XX^{\dagger})y\|^2$$
 
-
-
 **let **$$XX^{\dagger}$$** become **$$H$$**\(hat matrix\)**
 
 $$= \frac{1}{N}\|(I-H)y\|^2$$
@@ -21,4 +19,6 @@ $$= \frac{1}{N}\|(I-H)y\|^2$$
 而y則是原本的資料標籤，$$y-\hat{y}$$則是現實跟預測的差距
 
 H則是將$$y$$ 投影至x的平台上，成為$$\hat{y}$$               $$\because \hat{y} = XX^{\dagger}y = Hy$$
+
+至於I-H則是將$$y$$ 投影成$$y-\hat{y}$$                    $$\because y-\hat{y} = (I-H)y$$
 

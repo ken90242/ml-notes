@@ -15,4 +15,5 @@
 * [V23:Bounding Function\(inductive\)](v23bounding-functioninductive.md)
 * [V24:Vapnik-Chervonenkis\(VC\) bound](v24vapnik-chervonenkisvc-bound.md)
 * [V26: VC dimension](v26-vc-dimension.md)
+* [V34:Linear Regression](v34linear-regression.md)
 

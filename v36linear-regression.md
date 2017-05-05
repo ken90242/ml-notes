@@ -48,3 +48,7 @@ $$\overline{E_{out}}$$之所以多了$$\frac{d+1}{N}$$，若是剛好往雜訊�
 
 當N的數量越來越大時，$$\overline{E_{in}}$$跟$$\overline{E_{out}}$$會收攏成為近似$$\sigma^2$$\(noise level\)
 
+而generalization error為$$\frac{2(d+1)}{N}$$
+
+![](/assets/lflkkfkfkfkfkfk8932yr932yr.png)
+

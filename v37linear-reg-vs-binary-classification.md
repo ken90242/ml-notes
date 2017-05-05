@@ -12,6 +12,8 @@
 
 ![](/assets/230jr923jre032jr09t.png)
 
+\(VC詳見[VC dimension](/v26-vc-dimension.md)\)
+
 也因為這個特性，我們可以利用upper bound的性質將限縮在regression的誤差內
 
 也就是用上限交換了效能

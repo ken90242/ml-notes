@@ -16,4 +16,5 @@
 * [V24:Vapnik-Chervonenkis\(VC\) bound](v24vapnik-chervonenkisvc-bound.md)
 * [V26: VC dimension](v26-vc-dimension.md)
 * [V34:Linear Regression](v34linear-regression.md)
+* [V36:Linear Regression?](v36linear-regression.md)
 

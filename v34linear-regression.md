@@ -44,6 +44,12 @@ $$E_{out}(w) = \varepsilon_{(x,y)\sim P}(w^Tx-y)^2$$
 
 1. $$(X^TX)^{-1}$$存在：$$w = (X^TX)^{-1}X^Ty$$
 2. $$(X^TX)^{-1}$$不存在：會存在許多組區域最佳解
-3. 
+
+# Algorithm
+
+1. 建立matrix\(x和y\)
+2. 計算pseudo-inverse：$$X^{\dagger}=(X^TX)^{-1}$$
+3. 回傳$$w = X^{\dagger}y$$
+
 
 

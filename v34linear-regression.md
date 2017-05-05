@@ -6,7 +6,7 @@ $$h(x) = w^Tx$$
 
 # Error Measure
 
-$$square\ error: err(\hat{y},y) = (\hat{y}-y)^2$$  $$x = y$$
+$$square\ error: err(\hat{y},y) = (\hat{y}-y)^2$$  ，$$\hat{y}$$為預測的值
 
 ### in-sample:$$$$
 
@@ -15,6 +15,4 @@ $$E_{in}(w) = \frac{1}{N}\sum^N_{n=1}(h(x_n)-y_n)^2$$
 ### out-sample:
 
 $$E_{out}(w) = \varepsilon_{(x,y)\sim P}(w^Tx-y)^2$$
-
-
 

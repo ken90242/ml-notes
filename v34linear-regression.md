@@ -36,5 +36,14 @@ $$E_{out}(w) = \varepsilon_{(x,y)\sim P}(w^Tx-y)^2$$
 
 ![](/assets/3j928fj9jf98ewhjf93.png)
 
+![](/assets/djiojoi32jre23jr032j9f.png)
+
+接續先前的議題：令$$\nabla E_{in}(w) = 0$$，來求得最佳的$$w$$
+
+而又分成兩個議題\(pseudo inverse\):
+
+1. $$(X^TX)^{-1}$$存在：$$w = (X^TX)^{-1}X^Ty$$
+2. $$(X^TX)^{-1}$$不存在：會存在許多組區域最佳解
+3. 
 
 

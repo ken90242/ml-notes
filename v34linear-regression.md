@@ -34,7 +34,7 @@ $$E_{out}(w) = \varepsilon_{(x,y)\sim P}(w^Tx-y)^2$$
 
 # 求得$$E_{in}的梯度(\nabla E_{in})$$
 
-# 
+![](/assets/3j928fj9jf98ewhjf93.png)
 
 
 

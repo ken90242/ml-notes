@@ -1,12 +1,10 @@
-# Linear Reg可以用來做Binary分類嗎?
+# Linear Reg可以用來做Linear Classification嗎?
 
 ![](/assets/j098f9whf9ewf.png)
 
 相比於linear classification，linear regression顯得有效率多了
 
 那麼我們能先利用linear regression先行求出一個數字，再利用一個界線來定義其分類嗎?
-
-
 
 ![](/assets/h98732hd98h32d98.png)
 

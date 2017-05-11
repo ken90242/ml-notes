@@ -20,7 +20,7 @@ $$\theta(s) = \frac{e^s}{1+e^s} = \frac{1}{e^{-s}+1} $$
 
 **因此，logistic hypothesis為**$$h(x) = \theta(w^Tx)$$
 
-* ### Error Function
+* ### Error Function\(Cross-Entropy Error\)
 
 > 一個完美的hypothesis是能完全產生所有沒有雜訊的資料
 >
@@ -67,4 +67,6 @@ $$\frac{1}{N}\sum_{n=1}^N{-ln\theta(y_nw^Tx_n)}$$
 
 $$\frac{1}{N}\sum_{n=1}^N{-ln(1+exp(-y_nw^Tx_n)})^{-1} = \frac{1}{N}\sum_{n=1}^N{-1
  \times -ln(1+exp(-y_nw^Tx_n)}) = \frac{1}{N}\sum_{n=1}^N{ln(1+exp(-y_nw^Tx_n)})$$
+
+**最後的Error function即為**$$\frac{1}{N}\sum_{n=1}^N{ln(1+exp(-y_nw^Tx_n)})$$
 

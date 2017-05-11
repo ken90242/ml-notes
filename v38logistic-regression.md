@@ -50,16 +50,16 @@ f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times 
 
 因此可改寫為$$h(x_1) \times h(-x_2)\times ...\times h(-x_N) = \prod_{n=1}^N{h(x_ny_n)}$$
 
-
-
 再將h替換成w的關係式子
 
 $$\prod_{n=1}^N{h(y_nx_n)} 
 \propto \prod_{n=1}^N{\theta(y_nw^Tx_n)}$$
 
-
-
 取以e為底的log
 
 $$\prod_{n=1}^N{\theta(y_nw^Tx_n)} \propto ln\sum_{n=1}^N{\theta(y_nw^Tx_n)}$$
+
+再從求最大值轉換為求最小值
+
+$$\frac{1}{N}\sum_{n=1}^N{-ln\theta(y_nw^Tx_n)}$$
 

@@ -63,5 +63,7 @@ $$\prod_{n=1}^N{\theta(y_nw^Tx_n)} \propto ln\sum_{n=1}^N{\theta(y_nw^Tx_n)}$$
 
 $$\frac{1}{N}\sum_{n=1}^N{-ln\theta(y_nw^Tx_n)}$$
 
-最後再將$$\theta(x) = \frac{1}{1+e^{-x}}$$代入
+最後再將$$\theta(s) = \frac{1}{1+exp(-s)}$$代入得：
+
+$$\frac{1}{N}\sum_{n=1}^N{-ln(y_nw^Tx_n)}$$
 

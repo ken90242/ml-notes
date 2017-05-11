@@ -30,7 +30,11 @@ $$\theta(s) = \frac{e^s}{1+e^s} = \frac{1}{e^{-s}+1} $$
 
 $$D = {(x_1,true),(x_2,false),...,(x_N,false)}$$
 
-f\(x\)產生D的可能：
+![](/assets/jf982fj9wejf98ewjf.png)
 
+f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times P(x_N)(1-f(x_N))$$
 
+**這個機率大小會是所有hypothesis中最大的，趨近於1**
+
+因此若是我們要
 

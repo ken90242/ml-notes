@@ -15,6 +15,8 @@ $$\theta(s) = \frac{e^s}{1+e^s} = \frac{1}{e^{-s}+1} $$
 ![](/assets/fh2983hf9823djed.png)
 
 > $$\theta$$ 函數是為了 當s高時，機率要趨近1，而當s低時，機率要趨近0
+>
+> e.g. $$\theta(-\infty) = 0$$       $$\theta(0) = \frac{1}{2}$$           $$\theta(\infty) = 1$$
 
 **因此，logistic hypothesis為**$$h(x) = \theta(w^Tx)$$
 

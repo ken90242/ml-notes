@@ -38,5 +38,17 @@ f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times 
 
 因此若是我們要找到一個hypothesis h\(x\)相近於f\(x\)
 
-便將h\(x\)替換f\(x\)，並求最大化:
+便將h\(x\)替換f\(x\)，並求最大化：$$P(x_1)h(x_1) \times P(x_2)(1-h(x_2))\times ...\times P(x_N)(1-h(x_N))$$
+
+又由於sigmoid函式的特殊性質\(如下圖所示\)：$$1 - h(x) = 1- \theta(x) = \theta(-x) = h(-x)$$
+
+![](/assets/jf98jw9e8jfew89jf.png)
+
+又由於P\(x\)對於要競爭的每一個hypothesis都算是固定不變的
+
+因此可改寫為$$h(x_1) \times h(-x_2)\times ...\times h(-x_N) = \prod{h(x)}$$
+
+
+
+
 

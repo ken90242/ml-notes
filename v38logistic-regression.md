@@ -10,16 +10,11 @@ $$s = \sum_{i=0}^dw_ix_i$$
 
 再將s轉換為$$[-1,1]$$區間的機率$$\theta(s)$$，此$$\theta$$ 函數唯一個sigmoid函數\(S型\)
 
-  
 $$\theta(s) = \frac{e^s}{1+e^s} = \frac{1}{e^{-s}+1} $$
 
 ![](/assets/fh2983hf9823djed.png)
 
-> $$\theta$$ 函數是為了 將
-
-
+> $$\theta$$ 函數是為了 當s高時，機率要趨近1，而當s低時，機率要趨近0
 
 **因此，logistic hypothesis為**$$h(x) = \theta(w^Tx)$$
-
-
 

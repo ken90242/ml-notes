@@ -18,4 +18,5 @@
 * [V34:Linear Regression](v34linear-regression.md)
 * [V36:Linear Regression?](v36linear-regression.md)
 * [V37:Linear Reg v.s. Binary classification](v37linear-reg-vs-binary-classification.md)
+* [V38:Logistic Regression](v38logistic-regression.md)
 

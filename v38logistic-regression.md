@@ -65,5 +65,6 @@ $$\frac{1}{N}\sum_{n=1}^N{-ln\theta(y_nw^Tx_n)}$$
 
 最後再將$$\theta(s) = \frac{1}{1+exp(-s)}$$代入得：
 
-$$\frac{1}{N}\sum_{n=1}^N{-ln(y_nw^Tx_n)}$$
+$$\frac{1}{N}\sum_{n=1}^N{-ln(1+exp(-y_nw^Tx_n)})^{-1} = \frac{1}{N}\sum_{n=1}^N{-1
+ \times -ln(1+exp(-y_nw^Tx_n)}) = \frac{1}{N}\sum_{n=1}^N{ln(1+exp(-y_nw^Tx_n)})$$
 

@@ -52,6 +52,14 @@ f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times 
 
 
 
-$$\prod_{n=1}^N{h(x_ny_n)} 
-\propto \prod_{n=1}^N{\theta(w^Tx_nx_n)}$$
+再將h替換成w的關係式子
+
+$$\prod_{n=1}^N{h(y_nx_n)} 
+\propto \prod_{n=1}^N{\theta(y_nw^Tx_n)}$$
+
+
+
+取以e為底的log
+
+$$\prod_{n=1}^N{\theta(y_nw^Tx_n)} \propto ln\sum_{n=1}^N{\theta(y_nw^Tx_n)}$$
 

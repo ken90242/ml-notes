@@ -20,3 +20,17 @@ $$\theta(s) = \frac{e^s}{1+e^s} = \frac{1}{e^{-s}+1} $$
 
 **因此，logistic hypothesis為**$$h(x) = \theta(w^Tx)$$
 
+* ### Error Function
+
+> 一個完美的hypothesis是能完全產生所有沒有雜訊的資料
+>
+> 換句話說
+>
+> f\(x\)是最能夠產生我們所擁有的資料D
+
+$$D = {(x_1,true),(x_2,false),...,(x_N,false)}$$
+
+f\(x\)產生D的可能：
+
+
+

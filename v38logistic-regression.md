@@ -52,8 +52,10 @@ f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times 
 
 再將h替換成w的關係式子
 
+> 因為$$h(s) = \theta(s) = \theta(w^Tx) \therefore h(s) \propto \theta(w^T)$$
+
 $$\prod_{n=1}^N{h(y_nx_n)} 
-\propto \prod_{n=1}^N{\theta(y_nw^Tx_n)}$$
+\rightarrow \prod_{n=1}^N{\theta(y_nw^Tx_n)}$$
 
 取以e為底的log
 

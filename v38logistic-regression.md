@@ -46,9 +46,12 @@ f\(x\)產生D的機率：$$P(x_1)f(x_1) \times P(x_2)(1-f(x_2))\times ...\times 
 
 又由於P\(x\)對於要競爭的每一個hypothesis都算是固定不變的
 
-因此可改寫為$$h(x_1) \times h(-x_2)\times ...\times h(-x_N) = \prod{h(x)}$$
+又利用特徵x與標籤y相乘可表示相對應的輸入
+
+因此可改寫為$$h(x_1) \times h(-x_2)\times ...\times h(-x_N) = \prod_{n=1}^N{h(x_ny_n)}$$
 
 
 
-
+$$\prod_{n=1}^N{h(x_ny_n)} 
+\propto \prod_{n=1}^N{\theta(w^Tx_nx_n)}$$
 

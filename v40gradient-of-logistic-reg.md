@@ -72,3 +72,14 @@ $$\therefore w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t
 
 變動$$\eta$$  的Gradient：$$w_{t+1} = w_t + \eta{\nabla{E_{in}(w_t)}}$$
 
+# 總結
+
+因此，Logistic Regression的步驟如下：
+
+1. 計算$$\nabla{E_{in}(w_t)} = \frac{1}{N} \sum_{n=1}^{N}\theta(-y_nw_t^Tx_n)(-y_nx_n)$$
+2. 更新$$w_{t+1} = w_t + \eta \nabla{E_{in}(w_t)}$$
+
+重複上述步驟直到$$E_{in} = 0$$ 或是 $$E_{in} \approx 0$$ 或是**夠多的循環**
+
+
+

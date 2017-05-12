@@ -58,7 +58,17 @@ $$min_{\|v\|=1}$$     $$v^T\nabla{E_{in}(w_t)}$$
 
 $$v^T = \frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}$$
 
-
-
 $$\therefore w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}}$$\(最好的一步\)
+
+### $$\eta$$的選擇
+
+### ![](/assets/jfw98ejf98ewfew98hf9.png)
+
+因為$$\eta$$ 太大或是太小都會造成反效果，因此使用變動的$$\eta$$\(**基於向量大小來變化**\)
+
+原本的Gradient：$$w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}}$$
+
+> $$\eta = {\eta} \div {\|\nabla{E_{in}(w_t)}\|}$$
+
+變動$$\eta$$  的Gradient：$$w_{t+1} = w_t + \eta{\nabla{E_{in}(w_t)}}$$
 

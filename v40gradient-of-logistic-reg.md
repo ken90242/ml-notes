@@ -30,7 +30,7 @@ $$\therefore \nabla{E_{in}(w)} = \frac{1}{N}\sum_{n=1}^N{\theta(-y_nw^Tx_n)(-y_n
 
 但我們沒有一個直接的方法來算出答案，怎麼辦呢?
 
-### Iterative Optimization
+### Iterative Optimization：Gradient Descent
 
 參考PLA後的變形
 
@@ -57,6 +57,8 @@ $$min_{\|v\|=1}$$     $$v^T\nabla{E_{in}(w_t)}$$
 而$$\nabla{E_{in}(w_t)}$$是已知的，因此若要求得最小的值，$$v^T$$須為負的向量且向量長度為1：
 
 $$v^T = \frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}$$
+
+
 
 $$\therefore w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}}$$\(最好的一步\)
 

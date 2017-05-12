@@ -57,7 +57,7 @@ $$w_{t+1} = w_t + \eta{v}$$
 
 ![](/assets/fejsfdosjf9843hf9438ht.png)
 
-再利用Taylor expression來得到線性的式子\(前提：$$\eta$$ 很小\)
+再利用Taylor expansion來得到線性的式子\(前提：$$\eta$$ 很小\)
 
 $$min_{\|v\|=1}$$     $$E_{in}(w_t+\eta{v}) \approx E_{in}(w_t) + \eta{v^T}\nabla{E_{in}}(w_t)$$
 

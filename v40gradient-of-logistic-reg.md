@@ -28,3 +28,33 @@ $$\therefore \nabla{E_{in}(w)} = \frac{1}{N}\sum_{n=1}^N{\theta(-y_nw^Tx_n)(-y_n
 
 2.Weight sum = 0
 
+但我們沒有一個直接的方法來算出答案，怎麼辦呢?
+
+### Iterative Optimization
+
+參考PLA後的變形
+
+$$w_{t+1} = w_t + \eta{v}$$
+
+![](/assets/f434398rh39ght.png)
+
+> 那麼$$w_{t+1}$$要選什麼才能達到下降的目的?
+
+首先使用Greedy來找到$$w_{t+1} ( = w_t+\eta{v} )$$ 帶入後所得最小的$$E_{in}$$
+
+![](/assets/fejsfdosjf9843hf9438ht.png)
+
+再利用Taylor expression來得到線性的式子\(前提：$$\eta$$ 很小\)
+
+$$E_{in}(w_t+\eta{v}) \approx E_{in}(w_t) + \eta{v^T}\nabla{E_{in}}(w_t)$$
+
+由於$$E_{in}與\eta$$ 對於不同的候選$$w_t$$ 都是不變的，因此可以直接忽略，換句話說只需比較以下的式子：
+
+$$v^T\nabla{E_{in}(w_t)}$$
+
+而$$\nabla{E_{in}(w_t)}$$是已知的，因此若要求得最小的值，$$v^T$$須為負的向量且向量長度為1：
+
+$$v^T = \frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}$$
+
+$$\therefore w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t)}\|}}$$\(最好的一步\)
+

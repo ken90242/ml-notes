@@ -81,5 +81,5 @@ $$\therefore w_{t+1} = w_t + \eta{\frac{\nabla{E_{in}(w_t)}}{\|\nabla{E_{in}(w_t
 
 重複上述步驟直到$$E_{in} = 0$$ 或是 $$E_{in} \approx 0$$ 或是**夠多的循環**
 
-
+最後將最終的$$w_{t+1}$$回傳為 g 即大功告成
 

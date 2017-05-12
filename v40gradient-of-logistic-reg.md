@@ -36,7 +36,7 @@ $$\therefore \nabla{E_{in}(w)} = \frac{1}{N}\sum_{n=1}^N{\theta(-y_nw^Tx_n)(-y_n
 
 ![](/assets/asjdoh329hfewhf82.png)
 
-這邊的式子與原先PLA是相同的：
+這邊的式子與[原先PLA](/first-question.md)是相同的：
 
 ```
 if(預測後的結果與y相同) then 更新w為原本的w加上某些多項式

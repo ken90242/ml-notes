@@ -32,6 +32,17 @@ $$\therefore \nabla{E_{in}(w)} = \frac{1}{N}\sum_{n=1}^N{\theta(-y_nw^Tx_n)(-y_n
 
 ### Iterative Optimization：Gradient Descent
 
+或許可以利用PLA的概念：循序漸進的找出最小的$$E_{in}$$
+
+![](/assets/asjdoh329hfewhf82.png)
+
+這邊的式子與原先PLA是相同的：
+
+```
+if(預測後的結果與y相同) then 更新w為原本的w加上某些多項式
+else 不更動
+```
+
 參考PLA後的變形
 
 $$w_{t+1} = w_t + \eta{v}$$
@@ -50,7 +61,7 @@ $$w_{t+1} = w_t + \eta{v}$$
 
 $$min_{\|v\|=1}$$     $$E_{in}(w_t+\eta{v}) \approx E_{in}(w_t) + \eta{v^T}\nabla{E_{in}}(w_t)$$
 
-由於$$E_{in}與\eta$$ 對於不同的候選$$w_t$$ 都是不變的，因此可以直接忽略，換句話說只需比較以下的式子：
+由於$$E_{in}與\eta$$ 對於不同的候選$$w_t$$ 都是不變的，因此可以直接忽略，換句話說只y需比較以下的式子：
 
 $$min_{\|v\|=1}$$     $$v^T\nabla{E_{in}(w_t)}$$
 

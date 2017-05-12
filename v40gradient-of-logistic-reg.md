@@ -20,14 +20,11 @@ $$\therefore \nabla{E_{in}(w)} = \frac{1}{N}\sum_{n=1}^N{\theta(-y_nw^Tx_n)(-y_n
 
 有兩種可能：
 
-1. $$\theta(-y_nw^Tx_n) = 0 \Longrightarrow -y_nw^Tx_n =  -\infty \Longrightarrow y_nw^Tx_n = \infty
-    $$
+1.$$\theta(-y_nw^Tx_n) = 0 \Longrightarrow -y_nw^Tx_n = -\infty \Longrightarrow y_nw^Tx_n = \infty$$
 
 但這代表所有預測$$Sign(w^Tx_n) = y_n$$，也就是Linear separable
 
-asdasdasd
+但我們無法確定一定是Linear separable
 
-
-
-
+2.Weight sum = 0
 

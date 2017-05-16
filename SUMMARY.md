@@ -20,4 +20,5 @@
 * [V37:Linear Reg v.s. Binary classification](v37linear-reg-vs-binary-classification.md)
 * [V38:Logistic Regression](v38logistic-regression.md)
 * [V40:Gradient of Logistic Reg](v40gradient-of-logistic-reg.md)
+* [V42:Linear Classification](v42linear-classification.md)
 

@@ -82,7 +82,7 @@ $$\therefore d_{vc} \geq d+1$$
 
 上述表達的僅是一種可能性，$$x_{d+2}$$這個點因為linear dependence的關係，所以無法同時表達出兩種解\(取sign\)
 
-**一個式子畢竟只能表達出一種解**
+**一個運算式的結果畢竟僅有一種解**
 
 因此無論換了多少input data，都無法shatter該input data，表達出所有的解
 

@@ -55,8 +55,8 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 |  | PLA | Linear Regression | Logistic Regression |
 | :--- | :--- | :--- | :--- |
-| 優 |  |  |  |
-| 缺 |  |  |  |
+| 優 | 快 | 最簡單且最佳化 | 簡單且最佳化 |
+| 缺 | 須Linear separable | **當ys取絕對值很大時**：寬鬆的upper bound | **當ys為負且非常小時**：寬鬆的upper bound |
 |  |  |  |  |
 
 

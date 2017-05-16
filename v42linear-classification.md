@@ -27,22 +27,25 @@ Linear Regression：$$err_{SQR}(s,y) = (s-y)^2 = \frac{y^2(s-y)^2}{y^2(=1)} = (y
 
 ### Relationship of different function\(Upper Bound\)
 
-$$err_{0/1} \leq err_{sce} = \frac{1} {ln_{2}}\times 
+$$err_{0/1} \leq err_{sce} = \frac{1} {ln2}\times 
  err_{ce}$$
 
-$$\Rightarrow E_{in}^{0/1}(w) \leq E_{in}^{SCE}(w) = \frac{1}{ln_2}E_{in}^{CE}(w)$$
+$$\Rightarrow E_{in}^{0/1}(w) \leq E_{in}^{SCE}(w) = \frac{1}{ln2}E_{in}^{CE}(w)$$
 
-$$\Rightarrow E_{out}^{0/1}(w) \leq E_{out}^{SCE}(w) = \frac{1}{ln_2}E_{out}^{CE}(w)$$
+$$\Rightarrow E_{out}^{0/1}(w) \leq E_{out}^{SCE}(w) = \frac{1}{ln2}E_{out}^{CE}(w)$$
 
 > $$VC$$ on 0/1
 
 $$E_{out}^{0/1}(w) \leq E_{in}^{0/1}(w) + \Omega^{0/1}$$
 
-$$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln_2}E_{in}^{CE}(w) + \Omega^{0/1}$$
+$$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2}E_{in}^{CE}(w) + \Omega^{0/1}$$
 
 > $$VC_{Reg}$$ on CE
 
-$$E_{out}^{0/1} \leq \frac{1}{ln_2}E_{out}^{CE} $$
+$$E_{out}^{0/1}(w) \leq \frac{1}{ln2}E_{out}^{CE}(w)$$
 
-$$\Rightarrow E_{out}^{0/1}\leq \frac{1}{ln_2}E_{in}^{CE} + \frac{1}{ln_2}\Omega^{CE} $$
+$$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) + 
+ \frac{1}{ln2}\Omega^{CE} $$
+
+**兩種不同的推導都會得到同一個結論：小的**$$$$$$E_{in}^{CE}(w) \Rightarrow$$$$$$**小的**$$E_{out}^{0/1}(w)$$
 

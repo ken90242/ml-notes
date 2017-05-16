@@ -39,7 +39,7 @@
 
 若是所有的**input data都被證明是無法被shattered的**話，答案即為3
 
-> 當所有input data都無法被s
+> 當所有input data都無法被shatter時，代表出現了一線曙光
 
 # $$d_{vc} =? d + 1 $$
 

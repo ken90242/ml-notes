@@ -15,5 +15,9 @@ Linear Regression：$$err_{SQR}(s,y) = (s-y)^2 = \frac{y^2(s-y)^2}{y^2(=1)} = (y
 1. **Linear Regression**：小的$$err_{sqr}$$ $$\Rightarrow$$ 小的 $$err_{0/1}$$
 2. **Logistic Regression**：小的$$err_{ce}$$ $$\Leftrightarrow$$ 小的 $$err_{0/1}$$
 
+![](/assets/jasodj4309jf3042t.png)
+
+把$$err_{ce}$$乘上$$\frac{1}{ln2}$$後，會得到一條新的錯誤曲線：$$err_{scaled\ ce}$$，這樣做的目的是為了讓其通過變化點，當ys為0時
+
 
 

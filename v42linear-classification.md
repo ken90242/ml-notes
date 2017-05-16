@@ -25,3 +25,9 @@ Linear Regression：$$err_{SQR}(s,y) = (s-y)^2 = \frac{y^2(s-y)^2}{y^2(=1)} = (y
 
 ：小的$$err_{sce} $$ $$\Leftrightarrow$$  小的$$err_{0/1}$$
 
+### Relationship of different function\(Upper Bound\)
+
+
+
+
+

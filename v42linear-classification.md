@@ -49,7 +49,7 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 **兩種不同的推導都會得到同一個結論：小的**$$E_{in}^{CE}(w) \Rightarrow$$**小的**$$E_{out}^{0/1}(w)$$
 
-> 同樣的推導也適用$$E_{in}^{SQR}(w)$$：Linear/Logistic Reg.都可以用來進行Linear classification
+> **同樣的推導也適用**$$E_{in}^{SQR}(w)$$**：Linear/Logistic Reg.都可以用來進行Linear classification**
 
 
 

@@ -51,5 +51,7 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 > **同樣的推導也適用**$$E_{in}^{SQR}(w)$$**：Linear/Logistic Reg.都可以用來進行Linear classification**
 
+### 比較：Regression for classification
+
 
 

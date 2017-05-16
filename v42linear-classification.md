@@ -3,6 +3,10 @@
 |  | Linear Classification | Linear Regression | Logistic Regression |
 | :--- | :--- | :--- | :--- |
 |  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 
 

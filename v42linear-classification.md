@@ -53,5 +53,11 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 ### 比較：Regression for classification
 
+|  | PLA | Linear Regression | Logistic Regression |
+| :--- | :--- | :--- | :--- |
+| 優 |  |  |  |
+| 缺 |  |  |  |
+|  |  |  |  |
+
 
 

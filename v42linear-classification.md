@@ -27,7 +27,6 @@ Linear Regression：$$err_{SQR}(s,y) = (s-y)^2 = \frac{y^2(s-y)^2}{y^2(=1)} = (y
 
 ### Relationship of different function\(Upper Bound\)
 
-
-
-
+$$err_{0/1} \leq err_{sce} = \frac{1} {ln_{2}}\times 
+ err_{ce}$$
 

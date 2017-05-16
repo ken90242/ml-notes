@@ -6,3 +6,7 @@
 
 Linear Regression：$$err_{SQR}(s,y) = (s-y)^2 = \frac{y^2(s-y)^2}{y^2(=1)} = (ys-1)^2$$
 
+### Error Plot
+
+![](/assets/fj3289fj39j2234324fffft.png)
+

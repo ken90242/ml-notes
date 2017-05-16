@@ -60,5 +60,7 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 > **Linear Reg.經常用來運初始值**$$w_0$$**，提供給其他algorithm：PLA/Logistic Reg./pocket**
 
+# Stochastic Gradient Descent\(SGD\)
+
 
 

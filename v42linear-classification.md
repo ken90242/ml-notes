@@ -34,13 +34,15 @@ $$\Rightarrow E_{in}^{0/1}(w) \leq E_{in}^{SCE}(w) = \frac{1}{ln_2}E_{in}^{CE}(w
 
 $$\Rightarrow E_{out}^{0/1}(w) \leq E_{out}^{SCE}(w) = \frac{1}{ln_2}E_{out}^{CE}(w)$$
 
-> VC on 0/1
+> $$VC$$ on 0/1
 
 $$E_{out}^{0/1}(w) \leq E_{in}^{0/1}(w) + \Omega^{0/1}$$
 
+$$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln_2}E_{in}^{CE}(w) + \Omega^{0/1}$$
+
 > $$VC_{Reg}$$ on CE
 
-$$x = y$$
+$$E_{out}^{0/1} \leq \frac{1}{ln_2}E_{out}^{CE} $$
 
-
+$$\Rightarrow E_{out}^{0/1}\leq \frac{1}{ln_2}E_{in}^{CE} + \frac{1}{ln_2}\Omega^{CE} $$
 

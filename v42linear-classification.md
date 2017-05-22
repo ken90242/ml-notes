@@ -62,5 +62,9 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 # Stochastic Gradient Descent\(SGD\)
 
+> 每次更新w都要花上O\(N\)的時間，能否改進?
+
+
+
 
 

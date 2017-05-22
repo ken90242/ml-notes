@@ -21,4 +21,5 @@
 * [V38:Logistic Regression](v38logistic-regression.md)
 * [V40:Gradient of Logistic Reg](v40gradient-of-logistic-reg.md)
 * [V42:Linear Classification](v42linear-classification.md)
+* [V44: Multi-classification](v44-multi-classification.md)
 

@@ -64,7 +64,7 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 > 每次更新w都要花上O\(N\)的時間，能否改進?
 
+![](/assets/jfew8fjwejfojidsofsdft.png)
 
-
-
+拖累$$-\nabla{E_{in}W_t}$$主要是$$\frac{1}{N}\sum^N_{n=1}$$，
 

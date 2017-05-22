@@ -66,5 +66,21 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 ![](/assets/jfew8fjwejfojidsofsdft.png)
 
-拖累$$-\nabla{E_{in}W_t}$$主要是$$\frac{1}{N}\sum^N_{n=1}$$，
+拖累$$-\nabla{E_{in}W_t}$$主要是$$\frac{1}{N}\sum^N_{n=1}$$，當將其視為一個\(數個\)隨機點的平均梯度時，便可將時間複雜度限縮在O\(1\)了
+
+![](/assets/jf98ewj9fwjef932234t.png)
+
+Stochastic gradient = true gradient + noise direction
+
+優點
+
+
+
+
+
+
+
+
+
+
 

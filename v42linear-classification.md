@@ -72,15 +72,15 @@ $$\Rightarrow E_{out}^{0/1}(w) \leq \frac{1}{ln2} E_{in}^{CE}(w) +
 
 Stochastic gradient = true gradient + noise direction
 
-優點
+優點：效率高，適用於big data與online learning
 
+缺點：較不穩定\(隨機\)，無法確信到達最低點\(若要確認等於時間白省了\)
 
+### 很像PLA
 
+![](/assets/ifjew98fj23fkpwoefmport.png)
 
-
-
-
-
+SGD很像soft版本\(可以微調\)的PLA\(說1就是1\)，當$$\eta=1$$且$$w^T_tx_n$$很大時，$$SGD \approx PLA$$
 
 
 

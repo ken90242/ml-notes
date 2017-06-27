@@ -1,9 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [V7:Perceptron](first-question.md)
-* [V8:PLA fact](second-question.md)
-* [V9:Pocket algorithm](v9-pocket-algorithm.md)
+* [V07:Perceptron](first-question.md)
+* [V08:PLA fact](second-question.md)
+* [V09:Pocket algorithm](v9-pocket-algorithm.md)
 * [V14:Learning is impossible](v14learning-is-impossible.md)
 * [V15:Learning is possible\(1\)](v15learning-is-possible.md)
 * [V16:Learing is possible\(2\)](v16learing-is-possible2.md)
@@ -21,5 +21,6 @@
 * [V38:Logistic Regression](v38logistic-regression.md)
 * [V40:Gradient of Logistic Reg](v40gradient-of-logistic-reg.md)
 * [V42:Linear Classification](v42linear-classification.md)
-* [V44: Multi-classification](v44-multi-classification.md)
+* [V44:Multi-classification](v44-multi-classification.md)
+* [V54:Regularization](v54regularization.md)
 

@@ -4,3 +4,13 @@
 
 上述兩點即表示了前述Regularization的限制及原本Error求最小的兩式
 
+![](/assets/iasdjasoidjosajdoasdmport.png)
+
+上圖的紅圈$$w^Tw = C$$表示了Regularization給的限制
+
+**所有的解都只能在紅圈的範圍內**
+
+而藍圈則代表錯誤的大小，外圍則越大，中心點為最小值
+
+也就是當$$w = w_{lin}$$
+

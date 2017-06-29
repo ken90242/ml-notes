@@ -33,7 +33,7 @@
 
 這時的$$w$$，是跟$$\nabla E_{in}$$平行的：$$-\nabla E_{in}(w_{REG}) \propto w_{REG}$$
 
-為了推導方便：$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$
+為了推導方便：$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$, $$s.t. \lambda >=0$$
 
 ---
 
@@ -49,7 +49,11 @@ $$\Rightarrow w_{REG} \leftarrow (Z^TZ + \lambda I)^{-1}Z^Ty$$
 
 **解法二**
 
+求$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$ ，可將其視為下式\(Augmented error\)的微分
 
+$$\Rightarrow E_{in}(w) + \frac{\lambda}{N}w^Tw$$
+
+> 最小化Augmented error相當於最小化有條件\(C\)的$$E_{in}$$
 
 ---
 

@@ -14,13 +14,9 @@
 
 Augmented Error = Error\($$\hat{err}$$\)+Regularizer\($$\Omega$$ \)
 
-
-
 ## L1 & L2 Regularizer比較
 
 ![](/assets/impfewoijfoewjf9832uf9832hf932ort.png)
 
 \*differentiable：可微分的
-
-
 

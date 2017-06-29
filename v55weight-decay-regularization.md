@@ -37,9 +37,21 @@
 
 ---
 
+**解法一**
+
 $$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$
 
 $$\Rightarrow\frac{2}{N}(Z^TZw_{reg}-Z^Ty) + \frac{2\lambda}{N} w_{REG} = 0$$
 
 $$\Rightarrow w_{REG} \leftarrow (Z^TZ + \lambda I)^{-1}Z^Ty$$
+
+---
+
+**解法二**
+
+
+
+---
+
+
 

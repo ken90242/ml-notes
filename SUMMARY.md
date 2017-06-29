@@ -25,4 +25,5 @@
 * [V54:Regularization](v54regularization.md)
 * [V55:Weight-Decay-Regularization](v55weight-decay-regularization.md)
 * [V56:Regularization-VC-dimension](v56regularization-vc-dimension.md)
+* [V57:Different-Regularizer](v57different-regularizer.md)
 

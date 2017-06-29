@@ -14,7 +14,12 @@
 
 而上述函數也描述了機器學習是如何發揮作用的：
 
-1. $$m_H(N)$$的break point為3$$\longrightarrow$$ good H
+1. $$
+   m_H(N)
+   $$的break point為3
+   $$
+   \longrightarrow
+   $$ good H
 2. N的數量夠大\($$E_{in} \approx E_{out}$$\)$$\longrightarrow$$ good D
 3. A選到一個hypothesis g，獲得小的$$E_{in}$$$$\longrightarrow$$ good A
 4. 好的運氣\(不能總是選到壞資料呀\)

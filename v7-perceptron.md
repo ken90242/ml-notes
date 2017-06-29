@@ -6,7 +6,7 @@
 
 資料如下圖分布，而需要找出一個hypothesis\(w\)將其分割成兩塊
 
-![](/assets/img/example_perceptron_initial_map.png)
+![](/assets/example_perceptron_initial_map.png)
 
 #### 修正模型
 

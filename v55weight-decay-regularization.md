@@ -27,3 +27,19 @@
 
 **只要順著紫圈的切線前進，便可既降低E\_in，又不會超出Regularization的限制了**
 
+## 那麼，要如何用數學式表示運算到最後的最佳解呢?
+
+前進到最後，會發現再也沒有切線可以前進了
+
+這時的$$w$$，是跟$$\nabla E_{in}$$平行的：$$-\nabla E_{in}(w_{REG}) \propto w_{REG}$$
+
+為了推導方便：$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$
+
+---
+
+$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$
+
+$$\Rightarrow\frac{2}{N}(Z^TZw_{reg}-Z^Ty) + \frac{2\lambda}{N} w_{REG} = 0$$
+
+$$\Rightarrow w_{REG} \leftarrow (Z^TZ + \lambda I)^{-1}Z^Ty$$
+

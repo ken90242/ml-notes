@@ -59,7 +59,9 @@ $$\Rightarrow E_{in}(w) + \frac{\lambda}{N}w^Tw$$
 
 ### 小結
 
-我們將$$+\frac{\lambda}{N}w^Tw$$  視為**Weight-decay regularization**
+我們將$$\frac{\lambda}{N}w^Tw$$ 這一項視為**Weight-decay regularization**
 
+而從上述推導中可得：
 
+**很大的**$$\lambda$$** = 偏向小的**$$w$$**  = 小的**$$C$$
 

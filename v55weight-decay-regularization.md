@@ -57,5 +57,9 @@ $$\Rightarrow E_{in}(w) + \frac{\lambda}{N}w^Tw$$
 
 ---
 
+### 小結
+
+我們將$$+\frac{\lambda}{N}w^Tw$$  視為**Weight-decay regularization**
+
 
 

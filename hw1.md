@@ -8,7 +8,7 @@ import { testDatas, testFlags } from 'hw1_18_test.dat';
 
 ```js
 function main() {
-  // 隨機初始化w0，並將其指定為目前最好的w、計算產生的錯誤數
+  // 隨機初始化x0:Array(5)，並將其指定為目前最好的w、計算產生的錯誤數
   let wRace = randomizeSeeds();
   let wOpt = wRace;
   let wOptError = countErrors(trainDatas, trainFlags, wOpt);

@@ -9,12 +9,7 @@ importData('./hw1_18_test.dat', testDatas, testFlags);
 ```js
 function main() {
   const startTime = Date.now();
-  let wRace = [0, 0, 0, 0, 0];
-  wRace = wRace.map(() => { 
-    const rand = Math.random();
-    const plusOrMinus = rand < 0.5 ? -1 : 1;
-    return rand * plusOrMinus;
-  });
+  let wRace = randomizeSeeds();
   let wOpt = wRace;
   let wOptError = countErrors(trainDatas, trainFlags, wOpt);
 

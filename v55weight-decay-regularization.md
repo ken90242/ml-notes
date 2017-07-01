@@ -1,4 +1,4 @@
-*   ---
+---
 
   $$\min_{w\in{R}}$$$$E_{in}(w) = \frac{1}{N}\sum_{n=1}^N(w^Tz_n - y_n)^2= \frac{1}{N}\sum^N_{n=1}(Zw-Y)^T(Zw-Y)$$
 

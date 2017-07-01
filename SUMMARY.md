@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [HW1](hw1.md)
 * [V07:Perceptron](v7-perceptron.md)
 * [V08:PLA fact](v8-pla-fact.md)
 * [V09:Pocket algorithm](v9-pocket-algorithm.md)

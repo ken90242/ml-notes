@@ -33,7 +33,8 @@
 
 前進到最後，會發現再也沒有切線可以前進了
 
-這時的$$w$$，是跟$$\nabla E_{in}$$平行的：$$-\nabla E_{in}(w_{REG}) \propto w_{REG}$$
+這時的$$w$$，是跟 $$\nabla E_{in}$$ 平行的
+$$-\nabla E_{in}(w_{REG}) \propto w_{REG}$$
 
 為了推導方便：$$\nabla E_{in}(w_{REG}) + \frac{2\lambda}{N} w_{REG} = 0$$, $$s.t. \lambda >=0$$
 

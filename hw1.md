@@ -8,21 +8,28 @@ importData('./hw1_18_test.dat', testDatas, testFlags);
 
 ```js
 function main() {
+  // 隨機初始化w0，並將其指定為目前最好的w、計算產生的錯誤數
   let wRace = randomizeSeeds();
   let wOpt = wRace;
   let wOptError = countErrors(trainDatas, trainFlags, wOpt);
-
   let updateLimit = 50;
   let loopTimes = 2000;
+  //所有2000次的錯誤數總和
   let errorRes = 0;
 
+  //為統計，循環測試2000次
   for(let i = 0; i < loopTimes; i += 1) {
     do {
-      const rand = getRandomNumber(0, trainDatas.length)
+      // 隨機選取一個x及對應的y
+      const rand = getRandomNumber(trainDatas.length)
       const x = trainDatas[rand];
       const y = trainFlags[rand];
+      
       if (!predictIsSame(x, y, wRace)) {
+        // 若h(x)不等於y，則更新w
         wRace = updateFeature(x, y, wRace);
+
+        // 若是w的錯誤數比現有最好的w的還少，更新最好的w
         const newError = countErrors(trainDatas, trainFlags, wRace);
         if(newError < wOptError) {
           wOptError = newError;
@@ -31,12 +38,10 @@ function main() {
         updateLimit -= 1
       }
       errorRes += countErrors(testDatas, testFlags, wOpt);
+      //僅更新50次即進入下一個測試
     } while(updateLimit > 0);
-    // console.log(errorRes);
-    errorRes += wOptError;
   }
   console.log(`Optimized Error Rate:${errorRes / (loopTimes * testDatas.length)}`);
-  console.log(`total cost:${Date.now() - startTime}`);
 }
 ```
 

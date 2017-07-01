@@ -1,9 +1,9 @@
-code:
+程式：以Javascript開發
 
 ```js
-//將資料導入
-importData('./hw1_18_train.dat', trainDatas, trainFlags);
-importData('./hw1_18_test.dat', testDatas, testFlags);
+// 將資料導入
+import { trainDatas, trainFlags } from 'hw1_18_train.dat';
+import { testDatas, testFlags } from 'hw1_18_test.dat';
 ```
 
 ```js
@@ -12,19 +12,19 @@ function main() {
   let wRace = randomizeSeeds();
   let wOpt = wRace;
   let wOptError = countErrors(trainDatas, trainFlags, wOpt);
-  let updateLimit = 50;
   let loopTimes = 2000;
-  //所有2000次的錯誤數總和
+  // 所有2000次的錯誤數總和
   let errorRes = 0;
 
-  //為統計，循環測試2000次
+  // 為統計，循環測試2000次
   for(let i = 0; i < loopTimes; i += 1) {
+    let updateLimit = 50;
     do {
       // 隨機選取一個x及對應的y
       const rand = getRandomNumber(trainDatas.length)
       const x = trainDatas[rand];
       const y = trainFlags[rand];
-      
+
       if (!predictIsSame(x, y, wRace)) {
         // 若h(x)不等於y，則更新w
         wRace = updateFeature(x, y, wRace);
@@ -38,9 +38,10 @@ function main() {
         updateLimit -= 1
       }
       errorRes += countErrors(testDatas, testFlags, wOpt);
-      //僅更新50次即進入下一個測試
+      // 僅更新50次即進入下一個測試
     } while(updateLimit > 0);
   }
+  // 輸出結果
   console.log(`Optimized Error Rate:${errorRes / (loopTimes * testDatas.length)}`);
 }
 ```
@@ -59,7 +60,7 @@ function updateFeature(x, y, w) {
 ```
 
 ```js
-//計算每個w的錯誤
+// 計算每個w的錯誤
 function countErrors(datas, flags, w) {
   let errs = 0
   datas.forEach((data, idx) => {
@@ -74,11 +75,13 @@ function countErrors(datas, flags, w) {
 ```
 
 ```js
-//判斷hypothesis(x)與y是否相同
+// 判斷hypothesis(x)與y是否相同
 function predictIsSame(x, y, w) {
+  // 取正負號
   function SIGN(val) {
     return val === 0 ? -1 : (val > 0) ? 1 : -1; 
   }
+  // 矩陣相乘
   function MUL(arr1, arr2) {
     if (arr1.length !== arr2.length) {
       throw 'arrays length isnt same!';
@@ -90,7 +93,7 @@ function predictIsSame(x, y, w) {
     return res;
   }
 
-  return y.toString() === SIGN(MUL(x,w)).toString();
+  return y === SIGN(MUL(x,w));
 }
 ```
 
